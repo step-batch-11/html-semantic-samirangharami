@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+body > header {
+  text-align: center;
+  height: 13vh;
+}
+
+body > header > hgroup {
+  background-color: hsl(139.09deg 22.92% 18.82%);
+  color: rgb(239 239 239 / 88%);
+}
+
+body > header > hgroup > h1 {
+  font-size: 2.5em;
+  letter-spacing: 0.03em;
+  padding-top: 0.2em;
+}
+
+body > header > hgroup > h2 {
+  font-size: 1.3em;
+  letter-spacing: 0.03em;
+  padding: 0.3em;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.3em;
+  height: 4vh;
+  padding: 0 18em;
+  background-color: hsla(142, 25%, 17%, 0.87);
+}
+
+nav a {
+  color: rgba(255, 255, 255, 0.869);
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  height: 100vh;
+}
+
+body > footer {
+  text-align: center;
+  height: 4.5vh;
+  background-color: hsl(139.09deg 22.92% 18.82%);
+  color: rgb(239 239 239 / 88%);
+  font-size: 1.13em;
+  padding: 0.3em;
+}
