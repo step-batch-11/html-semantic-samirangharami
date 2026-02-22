@@ -93,7 +93,24 @@ dialog {
   position: fixed;
   inset: 0;
   margin: auto;
-  padding: 5px;
+  padding: 1.5em 2em;
+  border-radius: 7px;
+  border: none;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+}
+
+dialog button {
+  padding: 0.6em 1.2em;
+  border: none;
+  border-radius: 5px;
+  background-color: hsl(139.09deg 22.92% 18.82%);
+  color: white;
+  cursor: pointer;
+  font-size: 0.9em;
+}
+
+dialog button:hover {
+  opacity: 0.85;
 }
 
 dialog p {
@@ -111,7 +128,7 @@ body > footer {
   text-align: center;
   height: 4.5vh;
   background-color: hsl(139.09deg 22.92% 18.82%);
-  color: rgb(239 239 239 / 88%);
-  font-size: 1.13em;
-  padding: 0.3em;
+  color: rgba(239, 239, 239, 0.9);
+  padding: 1em;
+  font-size: 1em;
 }
