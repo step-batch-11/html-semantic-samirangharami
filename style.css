@@ -62,10 +62,11 @@ nav a:hover {
 }
 
 main {
-  margin-top: 2em;
-  height: 100vh;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 2em;
+  padding: 3em;
+  margin: 0 auto;
 }
 
 article {
@@ -73,19 +74,19 @@ article {
 }
 
 aside {
-  height: 100vh;
-  background: fixed;
-  border-left: 1px solid #888;
-  background-color: rgb(202, 202, 202);
-  text-align: center;
+  background-color: #e6e6e6;
+  padding: 1.8em;
+  border-radius: 8px;
+  height: 4em;
 }
 
-aside > h4 {
+aside h4 {
+  color: hsl(139.09deg 22.92% 18.82%);
+}
+
+aside p {
+  font-size: 0.95em;
   margin-top: 0.7em;
-}
-
-aside > p {
-  margin: 0.7em;
 }
 
 dialog {
